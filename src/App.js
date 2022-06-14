@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <h2 data-testid="counter-value">Counter: {counter}</h2>
-      <button data-testid="counter-decrement-button" onClick={()=>{handlechange(-1)}} disabled={counter===0? true : false}>+</button>
-      <button data-testid="counter-increment-button" onClick={()=>{handlechange(+1)}}>-</button>
+      <button data-testid="counter-decrement-button" onClick={()=>{handlechange(-1)}} disabled={counter===0? true : false}>Decrement</button>
+      <button data-testid="counter-increment-button" onClick={()=>{handlechange(+1)}}>Increment</button>
     </div>
   );
 }
